@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+<div id="main">
+  <div class="status-bar">text</div>
+  <div class="messages">
+    <div class="typing">...</div>
+    <b id= "st">99</b>
+  </div>
+  <div class="message-form">
+    <form>
+    <input type="text" onkeyup="stat()" maxlength="99" autofocus oninput="typing()">
+    <button type="button" onclick="sendMessage()">OK</button>
+    </form>
+  </div>
+</div>
+
+<script src="chat.js">
+
+</script>
+</body>
+</html>
